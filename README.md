@@ -5,6 +5,7 @@ This project is a Crime Prevention Portal website designed to spread awareness a
 # Technologies Used
 - HTML
 - Tailwind CSS
+- Static Website Files (No backend)
 
 # Features
 - Informative crime prevention guidelines
