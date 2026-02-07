@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Women Safety | Suraksha India</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body { background-color: #0a0a0c; color: #e2e8f0; font-family: 'Montserrat', sans-serif; }
+        .red-glow-card { background: #111114; border: 1px solid rgba(204, 0, 0, 0.2); transition: 0.3s; }
+        .red-glow-card:hover { border-color: #cc0000; box-shadow: 0 0 20px rgba(204, 0, 0, 0.1); }
+        .sidebar-sticky { position: sticky; top: 100px; }
+    </style>
+</head>
+<body class="bg-brand-dark">
+    <nav class="p-6 border-b border-white/5 bg-black/60 backdrop-blur-md sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <a href="index.html" class="text-red-600 font-bold uppercase tracking-widest text-xs flex items-center">
+                <i class="fa-solid fa-arrow-left-long mr-2"></i> Dashboard
+            </a>
+        </div>
+    </nav>
+    <main class="max-w-7xl mx-auto px-6 py-16 grid grid-cols-1 lg:grid-cols-4 gap-12">
+        <aside class="lg:col-span-1">
+            <div class="sidebar-sticky space-y-2">
+                <h3 class="text-gray-600 text-[10px] font-bold uppercase tracking-[0.2em] mb-4">Jump to Category</h3>
+                <a href="#definition" class="block p-3 text-sm border-l-2 border-red-600 bg-red-600/5 text-white font-semibold">01. Definition</a>
+                <a href="#how-it-happens" class="block p-3 text-sm border-l-2 border-white/5 hover:border-red-600 text-gray-400 hover:text-white transition">02. Modus Operandi</a>
+                <a href="#warning-signs" class="block p-3 text-sm border-l-2 border-white/5 hover:border-red-600 text-gray-400 hover:text-white transition">03. Warning Signs</a>
+                <a href="#legal" class="block p-3 text-sm border-l-2 border-white/5 hover:border-red-600 text-gray-400 hover:text-white transition">04. Legal Acts</a>
+            </div>
+        </aside>
+        <div class="lg:col-span-3 space-y-20">
+            <section id="definition">
+                <span class="text-red-600 font-mono text-xs uppercase tracking-widest">[ Crime Profile ]</span>
+                <h1 class="text-5xl md:text-6xl font-black text-white mt-4 mb-6 uppercase leading-tight">CRIMES AGAINST <br><span class="text-red-600">WOMEN</span></h1>
+                <p class="text-xl text-gray-400 leading-relaxed max-w-3xl">Encompasses domestic violence, harassment, stalking, and systemic gender-based exploitation. Legal literacy is the strongest defense.</p>
+            </section>
+            <section id="how-it-happens">
+                <h2 class="text-2xl font-bold text-white mb-8 flex items-center"><i class="fa-solid fa-diagram-project text-red-600 mr-4"></i> EXECUTION PATTERNS</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div class="red-glow-card p-6 rounded-lg">
+                        <h4 class="text-white font-bold mb-3 uppercase text-sm">Domestic Control</h4>
+                        <p class="text-xs text-gray-500">Systematic isolation from financial resources and social support to maintain dominance.</p>
+                    </div>
+                    <div class="red-glow-card p-6 rounded-lg">
+                        <h4 class="text-white font-bold mb-3 uppercase text-sm">Stalking</h4>
+                        <p class="text-xs text-gray-500">Both physical and digital persistence intended to cause fear and psychological distress.</p>
+                    </div>
+                </div>
+            </section>
+            <section id="warning-signs" class="bg-red-950/10 p-8 border-l-4 border-red-600">
+                <h2 class="text-2xl font-bold text-white mb-6">WARNING SIGNS</h2>
+                <ul class="space-y-4 text-gray-300">
+                    <li class="flex items-start gap-4"><i class="fa-solid fa-circle-exclamation text-red-600 mt-1"></i> Extreme possessiveness or monitoring of social media/phone.</li>
+                    <li class="flex items-start gap-4"><i class="fa-solid fa-circle-exclamation text-red-600 mt-1"></i> Sudden unexplained withdrawal from social gatherings.</li>
+                </ul>
+            </section>
+            <section id="legal">
+                <h2 class="text-2xl font-bold text-white mb-6">LEGAL PROTECTIONS</h2>
+                <table class="w-full text-left text-sm text-gray-400">
+                    <thead class="text-xs uppercase text-red-600 font-bold border-b border-white/10">
+                        <tr><th class="pb-4">Section</th><th class="pb-4">Offense</th><th class="pb-4">Punishment</th></tr>
+                    </thead>
+                    <tbody class="divide-y divide-white/5">
+                        <tr><td class="py-4 font-mono">Sec 498A IPC</td><td class="py-4">Cruelty by Husband/Relatives</td><td class="py-4 text-white">Up to 3 Years + Fine</td></tr>
+                        <tr><td class="py-4 font-mono">Sec 354 IPC</td><td class="py-4">Harassment / Modesty</td><td class="py-4 text-white">1-5 Years Imprisonment</td></tr>
+                    </tbody>
+                </table>
+            </section>
+        </div>
+    </main>
+    <footer class="bg-red-600 py-6 text-center"><p class="text-white font-bold tracking-widest text-sm">WOMEN HELPLINE: 1091</p></footer>
+</body>
+</html>

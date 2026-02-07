@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Case #899: The KYC Trap | Suraksha India</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body { background-color: #0a0a0c; color: #e2e8f0; font-family: 'Courier New', Courier, monospace; }
+        .dossier { 
+            background: #111114; 
+            border: 1px solid #222; 
+            box-shadow: 10px 10px 0px #cc0000;
+            background-image: radial-gradient(circle at 2px 2px, #1a1a1a 1px, transparent 0);
+            background-size: 24px 24px;
+        }
+        .stamp-solved {
+            border: 3px solid #cc0000;
+            color: #cc0000;
+            transform: rotate(-15deg);
+            display: inline-block;
+            padding: 4px 12px;
+            font-weight: bold;
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body class="p-6 md:p-12 flex flex-col items-center">
+
+    <div class="max-w-4xl w-full mb-8">
+        <a href="index.html" class="text-red-600 font-bold tracking-widest text-sm hover:text-white transition">
+            <i class="fa-solid fa-folder-open mr-2"></i> RETURN TO ARCHIVES
+        </a>
+    </div>
+
+    <div class="max-w-4xl w-full dossier p-8 md:p-12 relative overflow-hidden">
+        
+        <div class="flex flex-col md:flex-row justify-between items-start md:items-center border-b border-white/10 pb-6 mb-10">
+            <div>
+                <h1 class="text-3xl font-black text-white tracking-tighter uppercase">CASE #899: THE 'KYC' TRAP</h1>
+                <p class="text-red-500 font-bold mt-1">Status: DECLASSIFIED / EDUCATIONAL</p>
+            </div>
+            <div class="mt-4 md:mt-0">
+                <div class="stamp-solved">DIGITAL FRAUD</div>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-10 mb-10">
+            <div>
+                <h3 class="text-white font-bold border-l-2 border-red-600 pl-3 mb-4 uppercase">Incident Logistics</h3>
+                <ul class="space-y-3 text-sm text-gray-400">
+                    <li><span class="text-gray-600">LOCATION:</span> Bangalore, Karnataka</li>
+                    <li><span class="text-gray-600">YEAR:</span> 2024</li>
+                    <li><span class="text-gray-600">OFFENSE:</span> Cyber Personation & Financial Theft</li>
+                    <li><span class="text-gray-600">VICTIM LOSS:</span> ₹5,00,000 (INR)</li>
+                </ul>
+            </div>
+            <div class="bg-black/40 p-4 border border-white/5 rounded">
+                <h3 class="text-xs font-bold text-gray-500 mb-2 uppercase">Modus Operandi:</h3>
+                <p class="text-xs text-gray-400 leading-relaxed italic">
+                    "The perpetrator utilized a sense of urgency, claiming the victim's bank account was 'Blocked due to pending KYC'. Used psychological manipulation to force the installation of a remote access application."
+                </p>
+            </div>
+        </div>
+
+        <section class="mb-12">
+            <h2 class="text-white font-bold mb-4 uppercase tracking-widest">II. Investigation Narrative</h2>
+            <div class="space-y-6 text-sm text-gray-400 leading-relaxed">
+                <p>
+                    <strong class="text-white">Step 1 (The Hook):</strong> The victim received an SMS with a link. The message warned that failing to update KYC (Know Your Customer) would result in a permanent bank freeze.
+                </p>
+                <p>
+                    <strong class="text-white">Step 2 (The Social Engineering):</strong> Upon clicking the link, the victim received a call from an 'Executive'. The caller sounded professional and possessed basic details (Name/Phone) of the victim.
+                </p>
+                <p>
+                    <strong class="text-white">Step 3 (The Payload):</strong> The 'Executive' guided the victim to download a 'Support App' (AnyDesk/TeamViewer). This allowed the attacker to view the victim's phone screen in real-time.
+                </p>
+                <p>
+                    <strong class="text-white">Step 4 (The Theft):</strong> As the victim logged into their net banking to 'verify' the KYC, the attacker recorded the credentials and intercepted the OTP on the shared screen, immediately transferring funds to multiple mule accounts.
+                </p>
+            </div>
+        </section>
+
+        
+
+        <section class="bg-red-900/10 border border-red-600/30 p-6 rounded mb-10">
+            <h2 class="text-red-600 font-black mb-3 text-lg uppercase"><i class="fa-solid fa-triangle-exclamation mr-2"></i> Critical Lessons</h2>
+            <ul class="text-sm space-y-3 text-gray-300">
+                <li class="flex items-start"><i class="fa-solid fa-check text-red-600 mt-1 mr-3"></i> Banks NEVER use third-party screen-sharing apps for verification.</li>
+                <li class="flex items-start"><i class="fa-solid fa-check text-red-600 mt-1 mr-3"></i> An OTP is for YOUR eyes only; screen sharing exposes it instantly.</li>
+                <li class="flex items-start"><i class="fa-solid fa-check text-red-600 mt-1 mr-3"></i> Official bank communication usually uses registered short-code IDs, not 10-digit mobile numbers.</li>
+            </ul>
+        </section>
+
+        <div class="text-center">
+            <a href="#" class="inline-block px-10 py-3 bg-red-600 text-white font-bold uppercase tracking-widest hover:bg-red-700 transition shadow-[0_0_15px_rgba(204,0,0,0.4)]">
+                REPORT SIMILAR FRAUD
+            </a>
+        </div>
+
+    </div>
+
+    <p class="mt-8 text-gray-600 text-xs text-center max-w-2xl italic">
+        This file is for public awareness. Names and specific identifiers have been altered to protect victim identity. Suraksha India Archive.
+    </p>
+
+</body>
+</html>
